@@ -80,11 +80,11 @@ export default function WeatherChart({ data }) {
 
   const options = {
     responsive: true,
-    maintainAspectRatio: false, // ⬅️ Allows full container control
+    maintainAspectRatio: false,
     plugins: {
       legend: {
         display: true,
-        position: "bottom", // ⬅️ Better for mobile
+        position: "bottom", 
         labels: {
           boxWidth: 12,
           font: {
